@@ -13,7 +13,12 @@ const codes = [
 
 function init() {
   let index = 0;
-  document.body.addEventListener("keydown", key => {
-    
+  document.body.addEventListener("keydown", e => {
+    if (e.key === codes[index]) {
+      index++;
+      if (index === codes.length) {
+        
+      }
+    }
   });
 }
