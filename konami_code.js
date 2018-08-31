@@ -17,7 +17,7 @@ function init() {
     if (e.key === codes[index]) {
       index++;
       if (index === codes.length) {
-        
+        alert("Life counter set to 30.");
       }
     }
   });
